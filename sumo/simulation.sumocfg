@@ -1,0 +1,18 @@
+<configuration>
+    <input>
+        <net-file value="intersection.net.xml" />
+        <route-files value="traffic.rou.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="3600" />
+        <step-length value="0.2" />
+    </time>
+    <processing>
+        <time-to-teleport value="-1" />
+    </processing>
+    <gui_only>
+        <start value="true" />
+        <quit-on-end value="false" />
+    </gui_only>
+</configuration>

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+ModuleBridge
+ModuleBridge.exe
+sumo/intersection.net.xml
+runs/

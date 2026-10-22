@@ -1,0 +1,7 @@
+<connections>
+    <!-- Link indices are fixed so the Python controller can address each approach safely. -->
+    <connection from="N2C" to="C2S" fromLane="0" toLane="0" tl="center" linkIndex="0" />
+    <connection from="S2C" to="C2N" fromLane="0" toLane="0" tl="center" linkIndex="1" />
+    <connection from="E2C" to="C2W" fromLane="0" toLane="0" tl="center" linkIndex="2" />
+    <connection from="W2C" to="C2E" fromLane="0" toLane="0" tl="center" linkIndex="3" />
+</connections>

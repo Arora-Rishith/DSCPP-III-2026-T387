@@ -1,0 +1,11 @@
+<edges>
+    <!-- Each road is modelled as two opposing one-way edges. Together these form a bidirectional road. -->
+    <edge id="N2C" from="N" to="center" numLanes="1" speed="13.89" spreadType="right" />
+    <edge id="C2S" from="center" to="S" numLanes="1" speed="13.89" spreadType="right" />
+    <edge id="S2C" from="S" to="center" numLanes="1" speed="13.89" spreadType="right" />
+    <edge id="C2N" from="center" to="N" numLanes="1" speed="13.89" spreadType="right" />
+    <edge id="W2C" from="W" to="center" numLanes="1" speed="13.89" spreadType="right" />
+    <edge id="C2E" from="center" to="E" numLanes="1" speed="13.89" spreadType="right" />
+    <edge id="E2C" from="E" to="center" numLanes="1" speed="13.89" spreadType="right" />
+    <edge id="C2W" from="center" to="W" numLanes="1" speed="13.89" spreadType="right" />
+</edges>

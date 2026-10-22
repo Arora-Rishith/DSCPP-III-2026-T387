@@ -1,0 +1,12 @@
+<routes>
+    <!-- Visual styles are used by SUMO-GUI; the Python camera renderer uses these types to draw pixel sprites. -->
+    <vType id="car" vClass="passenger" guiShape="passenger" color="0.15,0.55,0.95" accel="2.6" decel="4.5" sigma="0.3" length="5.0" minGap="2.5" maxSpeed="13.89" />
+    <vType id="bus" vClass="bus" guiShape="bus" color="0.95,0.65,0.1" accel="1.2" decel="4.0" sigma="0.3" length="11.0" minGap="3.0" maxSpeed="11.11" />
+    <vType id="truck" vClass="truck" guiShape="truck" color="0.2,0.7,0.3" accel="1.6" decel="4.0" sigma="0.3" length="8.0" minGap="3.0" maxSpeed="11.11" />
+    <vType id="emergency" vClass="emergency" guiShape="emergency" color="1,0,0" accel="3.0" decel="5.0" sigma="0.1" length="5.5" minGap="2.0" maxSpeed="16.67" />
+
+    <route id="r_NS" edges="N2C C2S" />
+    <route id="r_SN" edges="S2C C2N" />
+    <route id="r_EW" edges="W2C C2E" />
+    <route id="r_WE" edges="E2C C2W" />
+</routes>
